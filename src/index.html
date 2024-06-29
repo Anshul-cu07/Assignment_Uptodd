@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header Example</title>
+    <link rel="stylesheet" href="./components/header/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../asset/banner.png" alt="Logo" width="133px" height="44px" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Programs</a></li>
+          <li><a href="#">Success Story</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <div class="cta">
+        <a href="#" class="button" id="openModalBtn">Book a Free Demo</a>
+      </div>
+    </header>
+
+    <section class="hero-section">
+      <h2>Achievers</h2>
+      <h1>Real Stories: Watch Babies Thrive</h1>
+    </section>
+
+    <section class="developmental-wonders">
+      <h2>Developmental Wonders: Early Learning Made Fun</h2>
+      <div class="wonders-container">
+        <div class="wonder">
+          <img src="../asset/reading.png" alt="2 Months & Crawling" />
+          <p>2 Months & Crawling!</p>
+        </div>
+        <div class="wonder">
+          <img
+            src="../asset/reading.png"
+            alt="10 Months & Recognising Objects"
+          />
+          <p>10 Months & Recognising Objects</p>
+        </div>
+        <div class="wonder">
+          <img src="../asset/reading.png" alt="18 Months & Reading Pictures" />
+          <p>18 Months & Reading Pictures</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="happy-parents">
+      <h2>Happy Parents, Thriving Tots: Witnessing Their Child's Growth</h2>
+      <div class="parents-container">
+        <div class="parent">
+          <img src="../asset/reading.png" alt="Super Mom" />
+          <p>
+            Audio visual technology is creating a difference and has become a
+            positive routine
+          </p>
+        </div>
+        <div class="parent">
+          <img src="../asset/reading.png" alt="Super Mom" />
+          <p>
+            Audio visual technology is creating a difference and has become a
+            positive routine
+          </p>
+        </div>
+        <div class="parent">
+          <img src="../asset/reading.png" alt="Super Mom" />
+          <p>
+            Audio visual technology is creating a difference and has become a
+            positive routine
+          </p>
+        </div>
+      </div>
+      <button class="see-all">See All</button>
+    </section>
+
+    <section class="statistics">
+      <div class="stat">
+        <p>158</p>
+        <p>Countries</p>
+      </div>
+      <div class="stat">
+        <p>98%</p>
+        <p>Happiness</p>
+      </div>
+      <div class="stat">
+        <p>107 International & 213 National Records</p>
+      </div>
+      <div class="stat">
+        <p>1,50,000+ Parents</p>
+      </div>
+    </section>
+
+    <section class="brilliant-minds">
+      <h2>Brilliant Minds: Celebrating Global Baby Champions</h2>
+      <div class="minds-container">
+        <div class="mind">
+          <img src="../asset/reading.png" alt="Champion" />
+          <p>
+            UpTodd's Little Genius identified 416 Flashcards within 10 Minutes
+          </p>
+        </div>
+        <div class="mind">
+          <img src="../asset/reading.png" alt="Champion" />
+          <p>
+            UpTodd's Little Genius identified 416 Flashcards within 10 Minutes
+          </p>
+        </div>
+        <div class="mind">
+          <img src="../asset/reading.png" alt="Champion" />
+          <p>
+            UpTodd's Little Genius identified 416 Flashcards within 10 Minutes
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>
+        Imagine what your child can achieve! Explore personalized development
+        that strengthens neural connections and builds a strong foundation for
+        their future.
+      </p>
+      <button class="start-now">Start Now</button>
+    </section>
+
+    <section class="success-stories">
+      <p>
+        Started with passion to create global impact, creating real success
+        stories in families across globe
+      </p>
+      <img src="../asset/reading.png" alt="Whatsapp Chat" />
+    </section>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Book Demo Session</h2>
+        <p>Only 4 Spots Left!</p>
+        <form>
+          <input type="text" placeholder="Rahul Sharma" />
+          <input type="email" placeholder="Email Id" />
+          <div class="phone-container">
+            <select class="country-code">
+              <option value="+91">+91</option>
+              <!-- Add other country codes as needed -->
+            </select>
+            <input type="tel" placeholder="Enter mobile number" />
+          </div>
+          <select>
+            <option>Select Baby Stage</option>
+            <option>Stage 1</option>
+            <option>Stage 2</option>
+          </select>
+          <button type="submit" class="button">Apply Now</button>
+        </form>
+        <p>
+          UpTodd’s <a href="#">Terms & Conditions</a> and
+          <a href="#">Privacy Policy</a> for complete data security
+        </p>
+        <div class="security">
+          <img src="path/to/avast.png" alt="Avast" />
+          <img src="path/to/secure.png" alt="Secure" />
+        </div>
+      </div>
+    </div>
+
+    <script src="../src/components/header/index.js"></script>
+  </body>
+</html>
